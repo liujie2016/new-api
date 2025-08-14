@@ -7,10 +7,7 @@ databases:
   - name: new-api-db
     # The type for a PostgreSQL database is 'psql'.
     type: psql
-    # Specify a stable version of PostgreSQL.
-    postgresMajorVersion: 15
-    # Use the free plan for PostgreSQL. Note the limitations.
-    # See Render's pricing page for more details.
+    # Render will use a default, stable PostgreSQL version for the selected plan.
     plan: free
 
 # ----------------- Web Service for New API -----------------
