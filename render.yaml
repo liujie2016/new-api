@@ -20,8 +20,7 @@ services:
     name: new-api
     # Use 'docker' environment for projects with a Dockerfile.
     env: docker
-    # Ensure this points to your repository.
-    repo: https://github.com/Calcium-Ion/new-api.git
+    # The repository is automatically linked by Render when you create the service.
     # Health check to ensure the service is running.
     healthCheckPath: /
     # Environment variables required by the application.
